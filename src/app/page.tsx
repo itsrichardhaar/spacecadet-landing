@@ -1,11 +1,21 @@
+import Image from "next/image";
+import styles from "../styles/home.module.css";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8 text-center">
-      <h1 className="text-4xl font-bold">Welcome to My Website</h1>
-      <p className="mt-4 text-lg text-gray-600">
-        This is a single-page site built with Next.js and deployed on Vercel.
-      </p>
-    </main>
+    <section className={styles.home}>
+      <Image
+        src="/space-logo.png"
+        alt="Spacecadet Logo"
+        width={300}
+        height={300}
+        className={styles.logo}
+      />
+      <h1>Welcome to Spacecadet.io</h1>
+      <p>Your modern web solution, built with Next.js.</p>
+    </section>
   );
 }
+
+
 
