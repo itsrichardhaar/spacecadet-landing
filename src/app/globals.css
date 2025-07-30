@@ -2,10 +2,13 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background: #f8f9fa;
-  color: #333;
 }
 
 main {
   padding: 2rem;
 }
 
+#__next-build-watcher,
+.nextjs-portal {
+  display: none !important;
+}
