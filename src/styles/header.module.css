@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #0b0d17;
-  color: #ffffff;
+  background-color: #f8f9fa;
+  color: #051739;
 }
 
 .logo {
@@ -18,12 +18,12 @@
 }
 
 .nav a {
-  color: #ffffff;
+  color: #051739;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease-in-out;
 }
 
 .nav a:hover {
-  color: #66fcf1; /* Accent hover color */
+  color: #05173965; /* Accent hover color */
 }
