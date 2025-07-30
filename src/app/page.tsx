@@ -12,7 +12,7 @@ export default function Home() {
         className={styles.logo}
       />
       <h1>Welcome to Spacecadet.io</h1>
-      <p>Your modern web solution, built with Next.js.</p>
+      <p>Your mission control for the modern web</p>
     </section>
   );
 }
