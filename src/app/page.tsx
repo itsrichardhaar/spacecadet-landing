@@ -12,10 +12,10 @@ export default function Home() {
 
       <section className={styles.home}>
         <Image
-          src="/space-logo.png"
+          src="/spacecadet-logo-v3.png"
           alt="Spacecadet Logo"
-          width={300}
-          height={300}
+          width={420}
+          height={113}
           className={styles.logo}
         />
         <h1>Welcome to Spacecadet.io</h1>
