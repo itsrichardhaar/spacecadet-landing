@@ -19,7 +19,7 @@ export default function Home() {
           className={styles.logo}
         />
         <h1>Welcome to Spacecadet.io</h1>
-        <p>Your mission control for the modern web</p>
+        <p>Your mission control for the modern web.</p>
       </section>
     </>
   );

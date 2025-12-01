@@ -8,12 +8,6 @@ main {
   padding: 2rem;
 }
 
-h1 {
-  font-family: "magistral", sans-serif !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
-}
-
 
 #__next-build-watcher,
 .nextjs-portal {
